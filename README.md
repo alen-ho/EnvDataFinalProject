@@ -215,11 +215,11 @@ Below is the segmentation result of image of "02.jpg"
 3.  **Predicted Landfill Area**:\
     This is the segmentation mask predicted by the trained model. Comparing this mask with the ground truth reveals the accuracy of the model in identifying and delineating landfill boundaries.
 
-| **Image Type**             | **Image**                                                                                                                                           |
-| :------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Input RAB image            | ![](README_md_files/0f5aa200-bb15-11ef-bac3-29376acdd9c9_20241216024738.jpeg?v=1&type=image&token=V1%3AMswAnSBfrpOlC3W7_kLALgnONzFA4Tc3T83NLCRg65I) |
-| Ground Truth Landfill Area | ![](README_md_files/19d4f9b0-bb15-11ef-bac3-29376acdd9c9_20241216024756.jpeg?v=1&type=image&token=V1%3AmewJ868MNU1hCxMPxK4E6nMcMNuGb7tvHujc_1FJWp8) |
-| Predicted Landfill Area    | ![](README_md_files/1de503b0-bb15-11ef-bac3-29376acdd9c9_20241216024803.jpeg?v=1&type=image&token=V1%3ApXOEecAmhQ4IyWqj1WNBnfnBAahB-Tt259V3Km0wNgc) |
+| **Image Type**             | **Image**                                                                                                                                                                                                                                                                                              |
+| :------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Input RAB image            | ![](README_md_files/0f5aa200-bb15-11ef-bac3-29376acdd9c9_20241216024738.jpeg?v=1&type=image&token=V1%3AMswAnSBfrpOlC3W7_kLALgnONzFA4Tc3T83NLCRg65I)![](README_md_files/d6b0e730-bb45-11ef-be23-5f4b480d2d5d_20241216083649.jpeg?v=1&type=image&token=V1%3Ampth56TteBEdE3qajqGyPO7pmQp1jQtt2_u4nFMtOu8) |
+| Ground Truth Landfill Area | ![](README_md_files/19d4f9b0-bb15-11ef-bac3-29376acdd9c9_20241216024756.jpeg?v=1&type=image&token=V1%3AmewJ868MNU1hCxMPxK4E6nMcMNuGb7tvHujc_1FJWp8)![](README_md_files/c1c78270-bb45-11ef-be23-5f4b480d2d5d_20241216083615.jpeg?v=1&type=image&token=V1%3A2P6NHVUbru6POnFW62wSir7yrWLjlhU05OTb1lqTFfs) |
+| Predicted Landfill Area    | ![](README_md_files/1de503b0-bb15-11ef-bac3-29376acdd9c9_20241216024803.jpeg?v=1&type=image&token=V1%3ApXOEecAmhQ4IyWqj1WNBnfnBAahB-Tt259V3Km0wNgc)![](README_md_files/c72ff080-bb45-11ef-be23-5f4b480d2d5d_20241216083623.jpeg?v=1&type=image&token=V1%3A7oi8nSHpTffcjS4BmDBaghdQzpFczpIEMROEWwt0r6w) |
 
 By comparing the predicted landfill mask with the ground truth, we can assess the model's segmentation performance for this image. Since the landfill in this example is distinct from the farmland, with clear and simple boundaries, the model successfully identifies and delineates the landfill areas.
 
@@ -229,23 +229,23 @@ The IoU for this image is **0.8202**, which aligns with our visual observation.
 
 Below is the segmentation result of image of "265.jpg".
 
-| **Image Type**             | **Image**                                                                                                                                           |
-| :------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Input RAB image            | ![](README_md_files/977ad200-bb19-11ef-bac3-29376acdd9c9_20241216032006.jpeg?v=1&type=image&token=V1%3AsQ5f7xUodPKZ4uAvE4yk2v0NNV0y90jBJYgZQeMvdYI) |
-| Ground Truth Landfill Area | ![](README_md_files/9ca5c1e0-bb19-11ef-bac3-29376acdd9c9_20241216032013.jpeg?v=1&type=image&token=V1%3AcprqdQDL6gJEbSoppGPATAy3FQ67cyHdj8TBt2dgJsU) |
-| Predicted Landfill Area    | ![](README_md_files/a0f37120-bb19-11ef-bac3-29376acdd9c9_20241216032020.jpeg?v=1&type=image&token=V1%3AfX37GsvDYYaaHAW2H9NS9DK0Xa8XtKIaLHNl1SaMdL0) |
+| **Image Type**             | **Image**                                                                                                                                                                                                                                                                                              |
+| :------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Input RAB image            | ![](README_md_files/977ad200-bb19-11ef-bac3-29376acdd9c9_20241216032006.jpeg?v=1&type=image&token=V1%3AsQ5f7xUodPKZ4uAvE4yk2v0NNV0y90jBJYgZQeMvdYI)![](README_md_files/de2c2fb0-bb45-11ef-be23-5f4b480d2d5d_20241216083702.jpeg?v=1&type=image&token=V1%3AlNE7jHkxUfnAN24Xmm2LSfHYtnCKcvzH511WfSpH2q4) |
+| Ground Truth Landfill Area | ![](README_md_files/9ca5c1e0-bb19-11ef-bac3-29376acdd9c9_20241216032013.jpeg?v=1&type=image&token=V1%3AcprqdQDL6gJEbSoppGPATAy3FQ67cyHdj8TBt2dgJsU)![](README_md_files/cc39c3d0-bb45-11ef-be23-5f4b480d2d5d_20241216083632.jpeg?v=1&type=image&token=V1%3AT2MOZ1A2P7GN8oGGsxsk7Cjo6IkSeV4nYU0wWDX5HnI) |
+| Predicted Landfill Area    | ![](README_md_files/a0f37120-bb19-11ef-bac3-29376acdd9c9_20241216032020.jpeg?v=1&type=image&token=V1%3AfX37GsvDYYaaHAW2H9NS9DK0Xa8XtKIaLHNl1SaMdL0)![](README_md_files/cd503ce0-bb45-11ef-be23-5f4b480d2d5d_20241216083634.jpeg?v=1&type=image&token=V1%3AWaHlrDK112YALgKrlZ_b25OMv7ZStjVXyUHtMOk7mLc) |
 
 The IoU for this example is **0.4370**. While the model successfully identifies the landfill and outlines its boundaries, it mistakenly classifies the construction site in the top-right corner as landfill. This error occurs because landfills and construction sites share many similar characteristics. This highlights the model's limitation in distinguishing between the two, emphasizing the need for further improvement to address this issue.
 
 ### **Example 3**
 
-Below is the segmentation result of image of "co173.jpg".
+Below is the segmentation result of image of "co1373.jpg".
 
-| **Image Type**             | **Image**                                                                                                                                           |
-| :------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Input RAB image            | ![](README_md_files/ada94f00-bb1b-11ef-bac3-29376acdd9c9_20241216033501.jpeg?v=1&type=image&token=V1%3A-sKP_52ISJ3cdyRxPDNma_lwSyBCvFlH4_oTfZrevC8) |
-| Ground Truth Landfill Area | ![](README_md_files/b21b9d40-bb1b-11ef-bac3-29376acdd9c9_20241216033508.jpeg?v=1&type=image&token=V1%3A4AP7DUdjfYc-JHn4FMj3P19zsB3PZv3NgPepcZ_dUdE) |
-| Predicted Landfill Area    | ![](README_md_files/b640dcf0-bb1b-11ef-bac3-29376acdd9c9_20241216033515.jpeg?v=1&type=image&token=V1%3AuzvKB8UCz2ad03Ls5BglA6QY7O43YOXa5ihV_e9wQTM) |
+| **Image Type**             | **Image**                                                                                                                                                                                                                                                                                              |
+| :------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Input RAB image            | ![](README_md_files/ada94f00-bb1b-11ef-bac3-29376acdd9c9_20241216033501.jpeg?v=1&type=image&token=V1%3A-sKP_52ISJ3cdyRxPDNma_lwSyBCvFlH4_oTfZrevC8)![](README_md_files/19a93880-bb46-11ef-be23-5f4b480d2d5d_20241216083842.jpeg?v=1&type=image&token=V1%3AsoCJ5cRk_Mw4Vpec0pkHqf4A3yT2ppoWrBSN_83powU) |
+| Ground Truth Landfill Area | ![](README_md_files/b21b9d40-bb1b-11ef-bac3-29376acdd9c9_20241216033508.jpeg?v=1&type=image&token=V1%3A4AP7DUdjfYc-JHn4FMj3P19zsB3PZv3NgPepcZ_dUdE)![](README_md_files/cf3af5e0-bb45-11ef-be23-5f4b480d2d5d_20241216083637.jpeg?v=1&type=image&token=V1%3AbynyMCgldAy7wfdFUH7sJwrhx8weWMhWUM2duhi0t7s) |
+| Predicted Landfill Area    | ![](README_md_files/b640dcf0-bb1b-11ef-bac3-29376acdd9c9_20241216033515.jpeg?v=1&type=image&token=V1%3AuzvKB8UCz2ad03Ls5BglA6QY7O43YOXa5ihV_e9wQTM)![](README_md_files/d01158b0-bb45-11ef-be23-5f4b480d2d5d_20241216083638.jpeg?v=1&type=image&token=V1%3ADDEp5EwkFNdYEFikUp7kEuGFbDHlisCCfojx46BZlJE) |
 
 This example is a clip from a village, containing farmland and houses but no landfill. The model successfully detects this, as shown in the predicted image where all pixels are black. This result demonstrates the model's ability to distinguish background elements (e.g., houses, farmland, and roads) from landfill areas.
 
@@ -271,7 +271,7 @@ Future work should address these limitations to improve the model's robustness a
 
 # **Reference:**
 
-Fang, G. (2024). DeepLabV3Plus-Pytorch. GitHub. https\://github.com/VainF/DeepLabV3Plus-Pytorch
+Fang, G. (2024). DeepLabV3Plus-Pytorch. GitHub. <https://github.com/VainF/DeepLabV3Plus-Pytorch>
 
 Nikulishyn, V., Savchyn, I., Lompas, O., & Lozynskyi, V. (2020). Applying of geodetic methods for monitoring the effects of waste-slide at Lviv municipal solid waste landfill. Environmental Nanotechnology, Monitoring & Management, 13, 100291.
 
